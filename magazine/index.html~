@@ -1,0 +1,43 @@
+<!Doctype html>
+    <html lang="fr>">
+        <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Desk mag</title>
+            <link rel="stylesheet" href="assets/css/style.css"/>
+        </head>
+        <body>
+            <div class="verti_line">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">feshion</a></li>
+                    <li><a href="#">Lookbook</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            <div>
+            <div class="img-width img-right">
+                
+                    <img src="assets/img/icons8-facebook-f-80.png" alt="facebook">
+                    <img src="assets/img/icons8-twitter-50.png" alt="twitter">
+                    <img src="assets/img/icons8-instagram-32.png" alt="instagram">
+                    <img src="assets/img/icons8-google-plus-32.png" alt="google+">
+                    <img src="assets/img/icons8-linkedin-filled-50.png" alt="linkedin">
+                    <img src="assets/img/icons8-youtube-filled-50.png" alt="youtube">
+                    <img style="position:absolute; left:120%; top:1px;" src="assets/img/icons8-search-24.png" alt="recherche">
+            </div>
+             <div class="font-fam font-colr">
+                    <h1>DESK<span>MAG</span></h1>
+             </div>   
+             <hr/>   
+          <div class="verti_line-2">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">categories</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Lifstyle</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+          <div>
+        </body>
+    </html>

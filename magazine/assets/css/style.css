@@ -1,0 +1,114 @@
+ body {
+        font-family: 'Montserrat', arial;
+      }
+
+#verti_line{
+ list-style-type:none;
+ margin:0;
+ padding:0 21%;
+ overflow:hidden;
+ background-color:#64D8C9;
+ 
+ }
+ #verti_line li{
+     float:left;
+ }
+ #verti_line li a{
+     display:block;
+     color:white;
+     padding:16px 18px;
+     text-decoration: none;
+ }
+ #verti_line li a:hover{
+     background-color:#009582;
+ }
+ .img-width img{
+     width:19px;  
+ }
+ .img-right{
+     position:absolute;
+     right:400px;
+     top:25px;
+     padding:0 12px;
+ }
+ .font-fam{
+     text-align:center; 
+ }
+ .font-colr h1 span{
+     color:#64D8C9;
+ }
+ hr{
+     width:50%;
+ }
+ #verti_line_2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.left{
+  position:absolute; 
+  left:21%; 
+}
+
+
+#verti_line_2 li{
+    display:inline;
+}
+#verti_line_2 li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:10px;
+}
+.bottom{
+    position:absolute;
+    top:30%;
+}
+.text h1{
+   position:absolute;
+   left:15%;
+   top:65%;
+   color:white;    
+}
+.font h1{
+font-size:70px;
+}
+.btton button{
+    position:absolute;
+    left:15%;
+    bottom:33%;
+}
+.btton-width button{
+    width:8%;
+    padding:10px;
+}
+.btton-border button{
+    padding:10px;
+    border-radius:25px;
+    border:solid #64D8C9;
+}
+.btton-color button{
+    background-color:#64D8C9;
+}
+.date h5{
+    position:absolute;
+    top:95%;
+    right:59%;
+    color:white;
+    font-size:15px;
+}
+.width-img img{
+    width:250px;
+      
+}
+.mov-img img{
+    position:absolute;
+    left:13%;  
+    top:115%;  
+    padding:0 20px;
+}
+
+ 
+

@@ -1,0 +1,43 @@
+.verti_line ul{
+ list-style-type:none;
+ margin:0;
+ padding:0;
+ overflow:hidden;
+ background-color:#64D8C9;
+ 
+ }
+ .verti_line{
+    left:20px; 
+ }
+ 
+ .verti_line li{
+     float:left;
+ }
+ .verti_line li a{
+     display:block;
+     color:white;
+     padding:16px 18px;
+     text-decoration: none;
+ }
+ .verti_line li a:hover{
+     background-color:#009582;
+ }
+ .img-width img{
+     width:19px;  
+ }
+ .img-right{
+     position:fixed;
+     right:400px;
+     top:25px;
+     padding:0 12px;
+ }
+ .font-fam{
+     text-align:center; 
+ }
+ .font-colr h1 span{
+     color:#64D8C9;
+ }
+ hr{
+     width:50%;
+ }
+
