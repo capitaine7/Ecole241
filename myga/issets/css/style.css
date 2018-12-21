@@ -23,6 +23,7 @@
 .header img{
     position:relative;
     right: 400px;
+    height:80px;
 }
 .header button{
     position: relative;
@@ -35,7 +36,7 @@
     background-color:white ;
 }
 .header button a:first-child{
-    font-size: 18px;
+    font-size: 16px;
     text-decoration:none;
     color:black;
 }
@@ -139,7 +140,7 @@
     width:100px;
     color:black;
     text-decoration:none;
-    padding:20px;
+    padding:18px;
     border-right:solid rgb(211, 209, 209) 1px;
     background-color: white;
     font-size:18px;
@@ -182,6 +183,6 @@
       font-family:'Open Sans Condensed', sans-serif;
   }
   #footer ul li{
-    font-size:20px;
+    font-size:18px;
 }
 
