@@ -32,7 +32,7 @@
     width: 150px;
     border:solid green 1px;
     border-radius:5px;
-    background-color:green ;
+    background-color:white ;
 }
 .header button a:first-child{
     font-size: 18px;
@@ -44,8 +44,8 @@
   }
   
   .header button:hover{
-    background-color:white; /* Green */
-    color:white;
+    background-color:green; /* Green */
+    color:green;
   }
 #footer{
     background-color:green;
@@ -69,8 +69,7 @@
 .info h1{
     position:relative;
     font-size:70px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    
+    font-family: 'Open Sans Condensed', sans-serif;   
 }
 .info p{
     font-size:30px;
@@ -93,9 +92,9 @@
     width: 200px;
     left:46%;
     bottom:111px;
-    border:green solid 1px ;
+    border:yellow solid 1px ;
     border-radius:4px;
-    background-color: green;
+    background-color:yellow;
   }
   .form input[value=VERIFIER]{
       font-size:18px;
@@ -105,13 +104,10 @@
     transition-duration: 0.4s;
   }
   .form input[type=submit]:hover{
-    background-color:yellow; /* Green */
+    background-color:green; /* Green */
     color:black;
-    border:solid 1px yellow;
+    border:solid 1px green;
 
-  }
-  .form input[placeholder=.GA]{
-      margin:20px;
   }
   #menu{
       position: relative;
@@ -164,7 +160,8 @@
         display: inline-block;
     }
     #footer ul{
-        margin:85px;
+        margin:50px;
+        padding:0 60px;
         list-style-type:none;
     }
   #footer ul li a{
