@@ -185,4 +185,10 @@
   #footer ul li{
     font-size:18px;
 }
-
+#footer ul li img{
+    height:70px;
+}
+#footer ul li h4{
+    font-size:30px;
+    padding:0 20px;
+}
