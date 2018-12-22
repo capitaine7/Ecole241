@@ -113,7 +113,7 @@
   }
   #menu{
       position: relative;
-      bottom:155%;
+      bottom:144%;
       left:300px;
   }
   #menu ul{
@@ -140,7 +140,7 @@
     width:100px;
     color:black;
     text-decoration:none;
-    padding:18px;
+    padding:20px;
     border-right:solid rgb(211, 209, 209) 1px;
     background-color: white;
     font-size:18px;
