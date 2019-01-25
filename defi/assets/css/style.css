@@ -1,0 +1,129 @@
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    width:215vh; 
+    height:auto;
+    background-color:#7078FF;
+}
+header .sidebar{
+    position:fixed;
+    width:100%;
+    top:5%;
+}
+header .sidebar .logo{
+    background-color:lightseagreen;
+    margin-left:4%;
+}
+header .sidebar .logo img{
+    width:90%;
+}
+header .sidebar nav{
+    background-color:lightgoldenrodyellow;
+    display:inline-block;
+}
+header .sidebar nav{
+    margin-left:35%;
+    width:45%;
+    background-color:purple;
+    display: inline-block;
+    vertical-align:middle;
+}
+header .sidebar nav ul li{
+    display:inline-block;
+    padding:0 20px;
+}
+header .sidebar nav ul li a{
+    text-decoration:none;  
+    color:white; 
+}
+header .sidebar .logo{
+    background-color:red;
+    display: inline-block;
+    vertical-align:middle;
+}
+header .sidebar nav ul{
+    background-color:yellow;
+}
+.article1{
+    padding:10px;
+    background-color:rgb(170, 94, 94);
+}
+.article1{
+   padding:10px;
+   background-color:lightskyblue;
+}
+.article2{
+padding:10px;
+background-color:yellowgreen;    
+}
+.article3{
+padding:10px;
+background-color:lightskyblue;    
+}
+footer{
+    padding:20px;
+    background-color:lightgreen;
+}
+header .article{
+    vertical-align:middle;
+    display:inline-block;
+    background-color:lightseagreen;
+    width:20%;
+    margin-top:3%;
+    margin-left:5%;
+}
+.montre1{
+    padding:10px;
+    background-color:rgb(19, 20, 22);
+}
+section article .montre1 img{
+    width:25%;
+}
+section article .montre2 img{
+   width:25%; 
+}
+section article .montre1, .montre2{
+    display:inline-block; 
+    vertical-align:middle;
+    width:48%; 
+}
+.montre2{
+    padding:10px;
+    background-color:purple;    
+}
+.montre3{
+    padding:5px;
+    background-color:#b31313;
+}
+.montre4{
+    padding:5px;
+    background-color:rgb(233, 229, 29);
+}
+.montre5{
+    padding:5px;
+    background-color:#0c0fa1;
+}
+section article .montre6 img{
+    width:50%;
+}
+section article .montre7 img{
+    width:50%;
+}
+ .info {
+    vertical-align: top;
+    display:inline-block;
+}
+header .image{
+    margin-left:10%;
+    vertical-align:middle;
+    display:inline-block;
+    background-color:lightskyblue;
+    width:40%;
+    height:500px;
+}
+header .image img{
+    margin-left:20%;
+    width:60%;
+}

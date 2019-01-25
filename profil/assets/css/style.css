@@ -1,0 +1,102 @@
+body{
+    background-color:white;
+}
+nav{
+    position:fixed;
+    background-color:#4F4b5C;
+    height:75px;
+    width:100%;
+    z-index:1;
+}
+nav .titre{
+    display:inline-block;
+    margin-left:12%;
+    margin-top:10px;
+    padding:10px 0;
+}
+nav .titre h5{
+    color:white;
+}
+nav .icon{
+    display: inline-block;
+    margin-left:2%;
+}
+nav .rouge{
+    background-color:red;
+    height:13px;
+    width:40%;
+    margin-left:60%;
+    margin-top:;
+}
+nav .icon ul li{
+    padding:0 10px;
+    color:white;
+    font-size:30px;
+}
+nav .titre h5 span{
+    color:red;
+}
+.container-fluid .row .center{
+    margin-left: 22%;
+    margin-top:22%;
+    border-radius:solid 2px;
+}
+.container-fluid .row .center img{
+    border:solid #4F4b5C 8px;
+}
+.container-fluid .group .ron1{
+    width:21%;
+    height:21%;
+    border:solid  #4F4b5C 5px;
+}
+.container-fluid .group .ron2{
+    width:21%;
+    height:21%;
+    border:solid  #4F4b5C 5px;
+}
+.container-fluid .group .ron3{
+    width:21%;
+    height:21%;
+    border:solid  #4F4b5C 5px;
+}
+.container-fluid .group .ron4{
+    width:21%;
+    height:21%;
+    border:solid  #4F4b5C 5px;
+}
+.container-fluid .group{
+    position:absolute;
+    top:25%;
+    width:50%;
+    height:100vh;
+ }
+.container-fluid .group .ron2, .ron3, .ron4{
+    margin:14px 0;
+}
+.container-fluid .group .ron1{
+    margin-left:38%;
+}
+.container-fluid .group .ron2{
+    margin-left:15%;
+}
+.container-fluid .group .ron3{
+    margin-left: 15%;
+    margin-top:10%;
+}
+.container-fluid .group .ron4{
+    margin-left: 35%;
+    margin-top:5%;
+}
+.text{
+    display:inline-block;
+    margin-top:40%;
+    margin-left:25%;
+    color:#4F4b5C;
+}
+.couleur:hover{
+    background-color: red;
+}
+.text:hover{
+    text-decoration:none;
+    color:white;
+}
