@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+        <nav class="fixed-top">
+            <div class="titre">
+                <h5><span>&ldquo;</span>La créativité est une drogue sans laquelle je ne peux pas vivre <span>&bdquo;</span></h5>
+            </div>
+            <div class="icon">
+                <ul>
+                    <li class="fa fa-facebook-square red"></li>
+                    <li class="fa fa-twitter-square red"></li>
+                    <li class="fa fa-google-plus-square red"></li>
+                    <li class="fa fa-tumblr-square red"></li>
+                    <li class="fa fa-linkedin-square red"></li>
+                    <li class="fa fa-instagram red"></li>
+                    <li class="fa fa-dribbble"></li>
+                </ul>
+            </div>
+            <div class="rouge">
+            </div>
+        </nav>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md titre">
+                    <h3><span>Contactez moi</span> pour avoir plus d'info<span id="croi"><a href="#">X</a></span></h3>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="p-3 mb-3 bg-light rounded cadre" style="text-align:center;">
+                        <h4 class="font-italic"><i class="fa fa-map-marker"></i>Adresse</h4>
+                        <p class="mb-0">241 lbv. Libreville,Gabon .</p>
+                            <p>Owendo,Gabon</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="p-3 mb-3 bg-light rounded cadre" style="text-align:center;">
+                        <h4 class="font-italic"><i class="fa fa-phone"></i>PHONE</h4>
+                        <p class="mb-0">0024105352000</p>
+                        <p>0024106194292</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="p-3 mb-3 bg-light rounded cadre" style="text-align:center;">
+                        <h4 class="font-italic"><i class="fa fa-envelope"></i>EMAIL</h4>
+                        <p class="mb-0">didcapitaine@gmail.com</p>
+                        <p>didcapitaime@outlook.fr</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="p-3 mb-3 bg-light rounded cadre" style="text-align:center;">
+                        <h4 class="font-italic"><i class="fa fa-user-plus"></i>RESEAU SOCIAL</h4>
+                        <p class="mb-0">Facebook: didier capitaine</p>
+                        <p>Linked'in: didier capitaine</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div id="googleMap" style="width:100%;height:400px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mx-auto" style="width: 200px; color:#4F4b5C;">
+                 <h1 >Contact</h1>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control brd mb-2" placeholder="Nom">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control brd mb-2" placeholder="Email">
+                    </div>
+                </div>
+                <label></label>
+                <div class="form-group">
+                    <input type="text" placeholder="objet" class="form-control brd mb-2">
+                </div>
+                <label></label>
+                <div class="form-group">
+                    <textarea type="text" rows="10" placeholder="message" class="form-control brd"></textarea>
+                </div>
+                <div class="">
+                    <input type="submit" class="btn btn-danger btn-lg mb-2 btn1" value="envoyer">
+                </diV>
+            </form>
+            </div>
+        </div>
+            <div class="row">
+              <div class="col-md">
+                    <ul class="list">
+                        <li><i class="fa fa-facebook-square red coouleur"></i></li>
+                        <li><i class="fa fa-twitter-square red coouleur1"></i></li>
+                        <li><i class="fa fa-google-plus-square red coouleur2"></i></li>
+                        <li><i class="fa fa-tumblr-square red coouleur3"></i></li>
+                        <li><i class="fa fa-linkedin-square red coouleur4"></i></li>
+                        <li><i class="fa fa-instagram red coouleur5"></i></li>
+                        <li><i class="fa fa-dribbble coouleur6"></i></li>
+                    </ul>
+              </div>
+            </div>
+        </main>
+        <footer class="blog-footer">
+            <p style="color:#4F4b5C;">Design build by didier for Okacode  <a href="https://getbootstrap.com/">portfolio</a> visit <a href="https://twitter.com/mdo">@capitaine7<img width="20px" src="assets/emoji/sunglasses.png"></a>.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
+        <script>
+            function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(51.508742,-0.120850),
+                    zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>
