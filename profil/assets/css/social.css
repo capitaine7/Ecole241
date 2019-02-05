@@ -3,6 +3,7 @@
     position: fixed;
     top: 30%;
     right:0px;
+    z-index:1;
 }
 
 .container .social ul {
