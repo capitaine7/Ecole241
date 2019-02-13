@@ -49,6 +49,7 @@ nav .titre h5 span{
 }
 .container-fluid .row .center img{
     border:solid #4F4b5C 8px;
+    box-shadow:0 0 20px #aaaaaa;
 }
 .container-fluid .group .ron1{
     width:21%;
@@ -74,7 +75,7 @@ nav .titre h5 span{
     position:absolute;
     font-size: 20px;
     top:14%;
-    width:48%;
+    width:47%;
     height:100vh;
     right:50%;
  }
@@ -83,17 +84,21 @@ nav .titre h5 span{
 }
 .container-fluid .group .ron1{
     margin-left:38%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .container-fluid .group .ron2{
     margin-left:15%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .container-fluid .group .ron3{
     margin-left: 15%;
     margin-top:10%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .container-fluid .group .ron4{
     margin-left: 35%;
     margin-top:5%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .text{
     display:inline-block;
@@ -145,6 +150,12 @@ nav .titre h5 span{
 .container-fluid .info p{
     margin-right:5px;
     color:#4F4b5C;
+}
+.container-fluid .info div button:first-child{
+   box-shadow:0 0 15px #4F4b5C;
+}
+.container-fluid .info div button:last-child{
+    box-shadow:0 0 15px red;
 }
 .btn1{
     width:100%;

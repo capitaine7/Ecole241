@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 header{
-    width:215vh;
+    width:213vh;
     height:215vh; 
     height:auto;
     background-color:#7078FF;
@@ -36,6 +36,11 @@ header .sidebar nav ul li a{
     text-decoration:none;  
     color:white; 
 }
+header .sidebar nav ul li:last-child{
+    background-color:black;  
+    padding:3px 15px; 
+    border-radius:20px;
+}
 header .sidebar .logo{
     display: inline-block;
     vertical-align:middle;
@@ -61,21 +66,17 @@ footer{
     background-color:lightgreen;
 }
 header .article{
-	padding:5px;
+	 padding:5px;
     vertical-align:middle;
     display:inline-block;
     background-color:lightseagreen;
     width:20%;
-    margin-top:2%;
-    margin-left:5%;
 }
 header .article h3{
-	font-size:2em;
-	text-align:center; 
+	
 }
 header .article p:first-of-type{
-	font-size:2em;	
-	text-align:center;
+	
 }
 header .article p:last-of-type{
 	text-align:justify;
@@ -122,11 +123,12 @@ section article .montre7 img{
     display:inline-block;
 }
 header .image{
-    margin-left:10%;
+	 background-color:red; 
+    margin-left:6%;
     vertical-align:middle;
     display:inline-block;
-    width:40%;
-    height:500px;
+    width:50%;
+    height:620px;
 }
 header .image img{
     margin-left:20%;
