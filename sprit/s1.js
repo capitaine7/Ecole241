@@ -1,2 +1,2 @@
 var affiche = "OKACODE";
-console.log "affiche";
+console.log(affiche);
