@@ -21,8 +21,9 @@ nav .titre h5{
     color:white;
 }
 nav .icon{
+
     display: inline-block;
-    margin-left:12.5%;
+    margin-left:13.5%;
 }
 .red:hover{
     color:red;
@@ -97,8 +98,7 @@ nav .titre h5 span{
 }
 .container-fluid .group .ron4{
     margin-left: 35%;
-    margin-top:5%;
-    
+    margin-top:5%;  
 }
 .text{
     display:inline-block;
@@ -135,7 +135,7 @@ nav .titre h5 span{
 }
 .container-fluid .info{
     position:absolute;
-    left:58%;
+    left:60%;
     bottom:9%;
 }
 .container-fluid .info ul li{
@@ -213,7 +213,6 @@ footer{
 footer a{
     color:red;
 }
-
 .container .row .titre span{
     font-size: 40px;
     color:red;
@@ -247,12 +246,8 @@ footer a{
     margin-left:28%;
     padding:3%;
     color:#4F4b5C;
-
-
 }
 .container .row .tit{
     margin-left: 34%;
     padding:3%;
 }
-
-
