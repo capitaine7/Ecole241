@@ -13,7 +13,7 @@ nav{
 }
 nav .titre{
     display:inline-block;
-    margin-left:5%;
+    margin-left:11%;
     margin-top:10px;
     padding:10px 0;
 }
@@ -22,7 +22,7 @@ nav .titre h5{
 }
 nav .icon{
     display: inline-block;
-    margin-left:12.5%;
+    margin-left:1%;
 }
 .red:hover{
     color:red;
@@ -52,31 +52,31 @@ nav .titre h5 span{
     box-shadow:0 0 20px #aaaaaa;
 }
 .container-fluid .group .ron1{
-    width:18%;
-    height:20%;
+    width:21%;
+    height:21%;
     
 }
 .container-fluid .group .ron2{
-    width:17%;
-    height:19%;
+    width:21%;
+    height:21%;
    
 }
 .container-fluid .group .ron3{
-    width: 17%;
-    height:19%;
+    width:21%;
+    height:21%;
    
 }
 .container-fluid .group .ron4{
-    width:17%;
-    height:19%;
+    width:21%;
+    height:21%;
    
 }
 .container-fluid .group{
     position:absolute;
     font-size: 20px;
-    top:16%;
+    top:12%;
     width:47%;
-    height:85vh;
+    height:100vh;
     right:50%;
  }
 .container-fluid .group .ron2, .ron3, .ron4{
@@ -114,9 +114,8 @@ nav .titre h5 span{
     color:white;
 }
 .container-fluid .moi{
-    position: absolute;
-    bottom:67%;
-    left:60%;
+    display: inline-block;
+    margin-left:32%;
     padding:15px 0;
     width:40%;
 }
@@ -136,7 +135,7 @@ nav .titre h5 span{
 .container-fluid .info{
     position:absolute;
     left:58%;
-    bottom:9%;
+    bottom:8%;
 }
 .container-fluid .info ul li{
     color:#4F4b5C;
@@ -149,7 +148,6 @@ nav .titre h5 span{
     font-size: 20px;
 }
 .container-fluid .info p{
-    margin-bottom: 7%;
     margin-right:5px;
     color:#4F4b5C;
 }

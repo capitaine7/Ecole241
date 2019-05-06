@@ -11,7 +11,13 @@
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
         <style>
 			.button {
-
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
   
   /*Rounded Corners and Shadows*/
   -webkit-border-radius: 100px;
@@ -36,17 +42,17 @@
     <body>
         <nav class="fixed-top">
             <div class="titre">
-                <h5><span>&ldquo;</span>La créativité est mon carburant sans lequel je ne peux avancer  <span>&bdquo;</span></h5>
+                <h5><span>&ldquo;</span>La créativité est une drogue sans laquelle je ne peux pas vivre <span>&bdquo;</span></h5>
             </div>
             <div class="icon">
                 <ul>
-                    <a href=""><li class="fa fa-facebook-square red"></li></a>
-                    <a href=""><li class="fa fa-twitter-square red"></li></a>
-                   <a href=""><li class="fa fa-google-plus-square red"></li></a>
-                    <a href=""><li class="fa fa-tumblr-square red"></li></a>
-                    <a href=""><li class="fa fa-linkedin-square red"></li></a>
-                    <a href=""><li class="fa fa-instagram red"></li></a>
-                     <a href=""><li class="fa fa-dribbble"></li></a>
+                    <li class="fa fa-facebook-square red"></li>
+                    <li class="fa fa-twitter-square red"></li>
+                    <li class="fa fa-google-plus-square red"></li>
+                    <li class="fa fa-tumblr-square red"></li>
+                    <li class="fa fa-linkedin-square red"></li>
+                    <li class="fa fa-instagram red"></li>
+                    <li class="fa fa-dribbble"></li>
                 </ul>
             </div>
             <div class="rouge">
@@ -55,10 +61,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="center animated zoomIn delay-1s">
-                      <img class="rounded-circle" width="350px" src="assets/img/profil.jpg" alt="le test"/>
+                      <img class="rounded-circle" width="400px" src="assets/img/profil.jpg" alt="le test"/>
                     </div>
                 </div>
                 <div class="group">
+                    <di></di>
                     <div class="ron1 rounded-circle couleur animated zoomIn delay-2s button">
                     <a href="apropos.html" class="text">A propos</a>
                     </div>
@@ -85,7 +92,7 @@
                         <li><i class="fa fa-whatsapp"></i>+241 06194292</li>
                     </ul>
                     <p>
-                    <br/> Je suis un jeune Gabonais autodidacte: dynamique, serieux, motivé<br/>Aimant ce que je fais c'est a dire le developpement web et mobile.<br/> je sais m'adapter au situation nouvelle car la veille est mon quatidien  
+                    Tacos amers vice prêt à l'emploi, intelligentsia williamsburg<br/> boire du vinaigre schlitz locavore cred tonnerre. Le tofu du<br/> narval de Kinfolk stumptown. Selfies tatoué quatre banjo loko.
                     </p>
                     <div>
                         <button type="button" class="btn btn-secondary btn-lg brd"> Me contacter <i class="fa fa-hand-paper-o"></i></button>
