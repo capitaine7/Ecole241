@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+/*@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');*/
+
 
 body{
     background-color:white;
-    font-family:'Roboto Slab', serif;
+    
 }
 nav{
 
@@ -43,6 +44,7 @@ nav .icon ul li{
 nav .titre h5 span{
     color:red;
 }
+
 .container-fluid .row .center{
     margin-left:22%;
     margin-top:16%;
@@ -135,7 +137,7 @@ nav .titre h5 span{
 }
 .container-fluid .info{
     position:absolute;
-    left:60%;
+    left:58%;
     bottom:9%;
 }
 .container-fluid .info ul li{
